@@ -1,0 +1,35 @@
+{
+  "name": "demo_bookshelf",
+  "version": "1.0.0",
+  "description": "Demo usando bookshelf",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "dependencies":{
+    "express":"latest",
+    "knex":"latest",
+    "bookshelf":"latest",
+    "mysql":"latest",
+    "checkit":"latest",
+    "bluebird":"latest",
+    "bcrypt":"latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfloresuth/demo_bookshelf.git"
+  },
+  "keywords": [
+    "expressjs",
+    "bookshelfjs",
+    "nodejs",
+    "mysql"
+  ],
+  "author": "Gustavo Adolfo Flores González",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gfloresuth/demo_bookshelf/issues"
+  },
+  "homepage": "https://github.com/gfloresuth/demo_bookshelf#readme"
+}
